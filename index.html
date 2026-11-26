@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindo - Paraíso Natural de Ecuador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f0;
+            color: #333;
+        }
+        header {
+            background-color: #2d5016;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .presentacion {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .lugares-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+        }
+        .lugar-card {
+            background-color: white;
+            border: 2px solid #c5e1a5;
+            border-radius: 8px;
+            width: 320px;
+            padding: 15px;
+            text-align: center;
+        }
+        .lugar-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .lugar-card h3 {
+            color: #2d5016;
+            margin: 10px 0;
+        }
+        .ver-mas {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .ver-mas:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #2d5016;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+                    .lugar-card img {
+            transition: transform 0.3s ease;
+        }
+        .lugar-card:hover img {
+            transform: scale(1.05);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌿 Mindo - Paraíso Natural de Ecuador</h1>
+        <p>Descubre la magia del bosque nublado</p>
+    </header>
+
+    <nav>
+        <a href="pages/lugar1.html">Mariposario</a> |
+        <a href="pages/lugar2.html">Cascadas de Nambillo</a> |
+        <a href="pages/lugar3.html">Tarabita</a> |
+        <a href="pages/lugar4.html">Bosque Protector</a> |
+        <a href="pages/lugar5.html">Jardín de Colibríes</a> |
+        <a href="pages/lugar6.html">Río Mindo</a>
+    </nav>
+
+    <main>
+        <section class="presentacion">
+            <h2>Bienvenidos a Mindo</h2>
+            <p><strong>Mindo</strong> es un encantador pueblo ubicado en el noroeste de Quito, Ecuador, a aproximadamente 90 minutos de la capital. Situado en el corazón del bosque nublado, es uno de los destinos ecoturísticos más importantes del país. Con una altitud de 1.250 metros sobre el nivel del mar, Mindo ofrece un clima agradable todo el año, exuberante vegetación, cascadas cristalinas y una biodiversidad extraordinaria que atrae a visitantes de todo el mundo.</p>
+            <p>Sus principales atractivos incluyen el avistamiento de aves, cascadas impresionantes, el mariposario, el bosque protector y actividades de aventura como la famosa tarabita. ¡Te invitamos a conocerlos!</p>
+        </section>
+
+        <h2 style="text-align: center; color: #2d5016;">Lugares Turísticos para Visitar</h2>
+        <div class="lugares-container">
+
+            <div class="lugar-card">
+                <img src="imgs/lugar1/img1.jpg" alt="Mariposario de Mindo">
+                <h3>Mariposario de Mindo</h3>
+                <p>Un espacio dedicado a la cría y exhibición de mariposas de diversas especies. Recorre los senderos y observa estas hermosas criaturas en plena libertad.</p>
+                <a href="pages/lugar1.html" class="ver-mas">Ver más →</a>
+            </div>
+
+            <div class="lugar-card">
+                <img src="imgs/lugar2/img1.jpg" alt="Cascadas de Nambillo">
+                <h3>Cascadas de Nambillo</h3>
+                <p>Un recorrido por varias cascadas impresionantes en medio de la selva. Caminata accesible que te lleva a disfrutar de aguas cristalinas y naturaleza pura.</p>
+                <a href="pages/lugar2.html" class="ver-mas">Ver más →</a>
+            </div>
+
+            <div class="lugar-card">
+                <img src="imgs/lugar3/img1.jpg" alt="Tarabita de Mindo">
+                <h3>Tarabita de Mindo</h3>
+                <p>Un sistema de transporte colgante que cruza el valle a gran altura. Disfruta de vistas panorámicas espectaculares sobre el río y las montañas.</p>
+                <a href="pages/lugar3.html" class="ver-mas">Ver más →</a>
+            </div>
+
+            <div class="lugar-card">
+                <img src="imgs/lugar4/img1.jpg" alt="Bosque Protector Mindo-Nambillo">
+                <h3>Bosque Protector Mindo-Nambillo</h3>
+                <p>Reserva natural que protege más de 19.000 hectáreas de bosque nublado. Hogar de cientos de especies de aves, orquídeas y animales endémicos.</p>
+                <a href="pages/lugar4.html" class="ver-mas">Ver más →</a>
+            </div>
+
+            <div class="lugar-card">
+                <img src="imgs/lugar5/img1.jpg" alt="Jardín de Colibríes">
+                <h3>Jardín de Colibríes</h3>
+                <p>Lugar único donde puedes observar y fotografiar decenas de especies de colibríes de muy cerca. Una experiencia inolvidable para los amantes de la naturaleza.</p>
+                <a href="pages/lugar5.html" class="ver-mas">Ver más →</a>
+            </div>
+
+            <div class="lugar-card">
+                <img src="imgs/lugar6/img1.jpg" alt="Río Mindo">
+                <h3>Río Mindo</h3>
+                <p>El río que da nombre al pueblo, ideal para relajarse, nadar en sus pozas naturales y disfrutar de un día tranquilo en familia o con amigos.</p>
+                <a href="pages/lugar6.html" class="ver-mas">Ver más →</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p><strong>Estudiante:</strong> Paredes Romero José Andrés</p>
+        <p><strong>Carrera:</strong> Sistema de Información II "A"</p>
+        <p><strong>Fecha de elaboración:</strong> 26 de noviembre de 2026</p>
+        <p>&copy; 2026 Turismo Mindo</p>
+    </footer>
+
+</body>
+</html>
